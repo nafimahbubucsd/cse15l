@@ -1,9 +1,9 @@
 Remote Access steps:
 
 1. Go to the course webite, and click the link for the course account lookup.
-![Image](websitess.png)
+![Image](./websitess.png)
 2. In the website type in your username and PID number to lookup your account username
-![Image](Accountlookupss.png)
+![Image](./Accountlookupss.png)
 3. Upon finding it, set the password for that account, follow the on screen instructions and a link should be sent to your personal email to set up your new password.
 4. After setting up the password, wait for it to take effect and in the meantime download vscode(i already had it downloaded)
 ![Image](vscodess.png)
