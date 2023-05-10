@@ -66,8 +66,11 @@ public void testReverseInPlace() {
   ```
 
 Symptom:
+
 ![Image](lb4.jpg)
+
 Desired output: 5, 4, 3, 2, 1
+
 Actual Output: 5, 4, 3, 4, 5
 
 Before:
