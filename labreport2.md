@@ -19,6 +19,7 @@ the relevant arguement:
   }
 }
 ```
+
 Str is the relevant class instance.The String[] parameters and method parameter url changed
 The method parameter url changed since a different url is entered: http://localhost:2365/add-message?s=Hello
 The value parameters represent the query part of the url. Since the url changed, the parameters also changed to {"s", "Hello"}
