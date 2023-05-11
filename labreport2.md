@@ -1,4 +1,4 @@
-LabReport 2 : Nafi Mahbub
+LabReport 2 : Nafi ALvi Mahbub
 
 
 
