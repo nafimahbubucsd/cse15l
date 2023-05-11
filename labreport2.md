@@ -80,14 +80,17 @@ Desired output: 5, 4, 3, 2, 1
 Actual Output: 5, 4, 3, 4, 5
 
 Before:
-```static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
         arr[i] = arr[arr.length - i - 1];
     }
 }
 ```
+
 After:
-```static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
     for (int i = 0; i < arr.length / 2; i++) {
         int temp = arr[i]; // swap the element
         arr[i] = arr[arr.length - i - 1];
