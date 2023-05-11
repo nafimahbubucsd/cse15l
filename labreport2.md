@@ -12,7 +12,7 @@ PART 1
 handleRequest method is called,
 the relevant arguement:
 
-```
+
 if (url.getPath().contains("/add-message")) {
   String[] parameters = url.getQuery().split("=");
   if (parameters[0].equals("s")) {
@@ -21,7 +21,7 @@ if (url.getPath().contains("/add-message")) {
     return str;
   }
 }
-```
+
 
 Str is the relevant class instance.The String[] parameters and method parameter url changed
 The method parameter url changed since a different url is entered: http://localhost:2365/add-message?s=Hello
