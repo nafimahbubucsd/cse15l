@@ -1,3 +1,7 @@
+LabReport 2 : Nafi Mahbub
+
+
+
 PART 1
 1) StringServer Code:
 ![Image](lb1.png)
