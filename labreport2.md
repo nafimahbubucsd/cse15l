@@ -6,6 +6,7 @@ PART 1
 1) StringServer Code:
 ![Image](lb1.png)
 
+
 2) hello
 ![Image](lb2.png)
 handleRequest method is called,
