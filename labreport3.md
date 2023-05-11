@@ -1,7 +1,7 @@
  LABREPORT3 : NAFI MAHBUB
  
  
- I'll pick the `grep` command for this task, which is a command-line utility for searching plain-text data sets for lines that match a regular expression. It's very useful when you're looking for specific patterns in files.
+ I'll pick the `grep` command for this task, which is a command-line utility for searching plain-text data sets for lines that match a regular expression. It's very useful when looking for specific patterns in files.
 
 
 1. `-i` option: This option makes `grep` ignore case distinctions in both the pattern and the input files. 
