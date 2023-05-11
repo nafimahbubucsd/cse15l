@@ -11,7 +11,9 @@ PART 1
 ![Image](lb2.png)
 handleRequest method is called,
 the relevant arguement:
-```if (url.getPath().contains("/add-message")) {
+
+```
+if (url.getPath().contains("/add-message")) {
   String[] parameters = url.getQuery().split("=");
   if (parameters[0].equals("s")) {
     str += parameters[1];
@@ -26,11 +28,14 @@ The method parameter url changed since a different url is entered: http://localh
 The value parameters represent the query part of the url. Since the url changed, the parameters also changed to {"s", "Hello"}
 The class instance str changed since we are adding the part of query to str so that it could display on the website. The new str would be "Hello\n"
 
+
 3) how are you 
 ![Image](lb3.png)
 handleRequest method is called,
 the relevant arguement:
-```if (url.getPath().contains("/add-message")) {
+
+```
+if (url.getPath().contains("/add-message")) {
   String[] parameters = url.getQuery().split("=");
   if (parameters[0].equals("s")) {
     str += parameters[1];
