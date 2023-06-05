@@ -18,7 +18,7 @@ Next I began to create the repository into my ieng6 account, one of the fastest 
 
 I pressed `<Enter>` and it started to clone the repository
 
-![Image](step2.5.png)
+![Image](step2.5.PNG)
 
 
 
