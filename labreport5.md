@@ -1,21 +1,17 @@
 # Part 1: Debugging Scenario
 ###### Tutor's Response
 
-Re: Debugging issue with reversed() method in ArrayExamples.java 
+Re: Debugging issue with ListExamples.java
 
-Hello John, I appreciate you reaching out for assistance. 
+Hello jordyn, I appreciate you reaching out for assistance. 
 Today, I'll be aiding you in resolving this issue! 
-Upon inspection, your ArrayTests.java file seems to be in good shape. However, there appears to be an issue with your ArrayExamples.java code, particularly the reversed() method. Could you kindly share your complete ArrayExamples.java code? 
+Upon inspection, your ListExamples.java file seems to be in good shape. However, there appears to be an issue with your ListExamples.java code, particularly the reversed() method. Could you kindly share your complete ListExamples.java code? 
 
-In the meantime, I'd recommend running the following commands in your terminal:
-```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ArrayExamples.java``` 
-```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests```
-
-If executing these two commands each time you test feels burdensome, consider creating a bash script. Here's a sample bash script "arraytest.sh":
+In the meantime, If executing these two commands each time you test feels burdensome, consider creating a bash script. Here's a sample bash script "listtest.sh":
 ```java
 set -e
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ArrayExamples.java
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ArrayTests
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar Listexamples.java
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListTests
 ```
 After running the bash script in your terminal, try: 
 ```java
@@ -23,11 +19,32 @@ bash-3.2$ echo $?
 ```
 This command will return 1 if there's an error, or 0 if everything is fine. It's a quick way to see if there's an error or not.
 
-I'd appreciate it if you could share the outcome after executing these commands so I can better identify your exact issue. 
-
 Best Wishes, 
 
 Nafi Mahbub.
+
+###### Student's Response
+
+Re: Issue with ListExamples.java 
+
+Hello, its jordyn again heres the code for the ListExample Class
+![Image](step4.png)
+
+###### Tutor's Response
+
+Re: Debugging issue with ListExamples.java
+
+Hi Jordyn, as i expected the problem is with the code itself, look to find any bugs in the photo you sent me (hint: line 44).
+After you find it you can edit it using vim by typing up `vim ListExamples.java` and entering INSERT mode by pressing `I`, as we learned in class.
+After fixing the code run the tests again using the bash script.
+
+###### Student's Response
+
+Re: Issue with ListExamples.java
+
+I found the issue, after replacing `index1` with `index2` the tests seem to run fine.
+![Image](step8.png)
+Thank you for all the help!
 
 
 # Part 2: Reflection
