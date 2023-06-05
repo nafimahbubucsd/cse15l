@@ -12,7 +12,7 @@ Re: Debugging issue with ListExamples.java
 
 Hello jordyn, I appreciate you reaching out for assistance. 
 Today, I'll be aiding you in resolving this issue! 
-Upon inspection, your ListExamples.java file seems to be in good shape. However, there appears to be an issue with your ListExamples.java code, particularly the reversed() method. Could you kindly share your complete ListExamples.java code? 
+Upon inspection, your ListExamples.java file seems to be in good shape. However, there appears to be an issue with your ListExamples.java code. Could you kindly share your complete ListExamples.java code? 
 
 In the meantime, If executing these two commands each time you test feels burdensome, consider creating a bash script. Here's a sample bash script "listtest.sh":
 ```java
