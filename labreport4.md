@@ -37,7 +37,7 @@ Running tests:
 
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` `<enter>` to show tests fail
 
-![Image](step4.png)
+
 
 
 
@@ -45,18 +45,18 @@ Running tests:
 
 we then edit the file ListExamples file by accessing it in vim, we can do this by typing up `vim ListExamples.java` and we are in vim
 
-![Image](step5.png)
+![Image](step4.png)
 
 we must first enter INSERT mode in vim by pressing `I`
-![Image](step6.png)
+![Image](step5.png)
 Now We can trace where th e Ccrror is at line 44, so I pressed the `<down>` key 44 times
 
 The comment in the code says to change the index1 variable to index2 so i proceeded to do that
-![Image](step7.png)
+![Image](step6.png)
 Making sure to exit INSERT mode by pressing `<Escape>`, we can now exit by pressing `:wq` `<enter>` to exit vim and go back to terminal. to exit vim.
-![Image](step8.png)
+![Image](step7.png)
 To make sure our changes are saved, we can always check by typing `less ListExamples.java`
-
+![Image](step8.png)
 
 # Step 8
 
