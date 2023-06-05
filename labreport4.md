@@ -26,20 +26,20 @@ After typing `ls` into the command line I was able to see that indeed lab 7 is t
 
 # Step 6
 
-Checking to see the files in this directory by pressing `ls` we can see a bash script there, I had to check what was in the bash script by typing `less te<tab>`
+Running tests:
 
 ![Image](step3.png)
 
-I saw it both compiles and runs the junit test which is convenient knowing we can now just call this script to run the tests
 
-Press `Q` in order to return back
+`cd lab7` `<enter>` to change directory into lab7 repository to run tests
 
-now lets run the tests to see if it works 
-typing in `bash te<tab>`
+`javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` `<enter>` to compile all java files in lab7 directory
+
+`java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` `<enter>` to show tests fail
 
 ![Image](step4.png)
 
-The error message says that in the ListExamples file there is an error there, at line 44 meaning we have to go fix it.
+
 
 # Step 7
 
