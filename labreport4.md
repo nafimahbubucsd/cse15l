@@ -13,16 +13,15 @@ I had to loged in with my password as I didnt set up the ssh key yet
 
 # Step 5 
  
-Next I began to create the repository into my ieng6 account, one of the fastest ways I found to clone it was through searching the command history using `<ctrl><r>` together which then I proceeded to type 'git' which then popped up the 'git clone' command along with the link of the repository in in order to easily be able to clone the repository 
 
+`git clone git@github.com:mdimapilis/lab7.git` `<enter>` to clone lab7 repository from my GitHub.
 
 I pressed `<Enter>` and it started to clone the repository
 
 ![Image](step2.5.PNG)
 
 
-
-After typing `ls` into the command line I was able to see that indeed lab 7 is there so now we have to change directories to get into the lab 7 directory itself by pressing `cd l<tab>` 
+`git clone git@github.com:mdimapilis/lab7.git` `<enter>` to clone lab7 repository from my GitHub.
 
 # Step 6
 
