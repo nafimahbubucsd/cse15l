@@ -1,4 +1,11 @@
 # Part 1: Debugging Scenario
+
+![Image](lab5.1.png)
+![Image](lab5.2.png)
+
+
+
+
 ###### Tutor's Response
 
 Re: Debugging issue with ListExamples.java
