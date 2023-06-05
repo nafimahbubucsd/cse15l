@@ -7,6 +7,7 @@
 First we log into ssh and clone the new repository we have here
 
 ![Image](step1.png)
+![Image](step2.png)
 
 I had to loged in with my password as I didnt set up the ssh key yet
 
@@ -14,7 +15,6 @@ I had to loged in with my password as I didnt set up the ssh key yet
  
 Next I began to create the repository into my ieng6 account, one of the fastest ways I found to clone it was through searching the command history using `<ctrl><r>` together which then I proceeded to type 'git' which then popped up the 'git clone' command along with the link of the repository in in order to easily be able to clone the repository 
 
-![Image](step2.png)
 
 I pressed `<Enter>` and it started to clone the repository
 
