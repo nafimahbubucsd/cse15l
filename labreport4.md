@@ -52,16 +52,16 @@ The comment in the code says to change the index1 variable to index2 so i procee
 Making sure to exit INSERT mode by pressing `<Escape>`, we can now exit by pressing `:wq` `<enter>` to exit vim and go back to terminal. to exit vim.
 ![Image](step7.png)
 To make sure our changes are saved, we can always check by typing `less ListExamples.java`
-![Image](step8.png)
+
 
 # Step 8
 
-Now lets try to run the test again, since we already used the bash script before, we can find it from our history by pressing `<ctrl><r><b>` which will autofill to `bash test.sh` when we press `<enter>`, We do so and here are the results 
+Now lets try to run the test again, when we press `<enter>` here are the results 
+![Image](step8.png)
 
-![Image](step9.png)
 
 The tests do indeed end up passing this time meaning we were able to fix our buggy code in the terminal itself
-
+![Image](step9.png)
 
 # Step 9
 
