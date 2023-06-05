@@ -14,12 +14,11 @@ I had to loged in with my password as I didnt set up the ssh key yet
 # Step 5 
  
 
-`git clone git@github.com:mdimapilis/lab7.git` `<enter>` to clone lab7 repository from my GitHub and it started to clone the repository
+`git clone git@github.com:nafimahbubucsd/lab7.git` `<enter>` to clone lab7 repository from my GitHub and it started to clone the repository
 
 ![Image](step2.5.PNG)
 
 
-`git clone git@github.com:mdimapilis/lab7.git` `<enter>` to clone lab7 repository from my GitHub.
 
 # Step 6
 
